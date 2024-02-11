@@ -1,4 +1,4 @@
-# ml project
+![image](https://github.com/snanadi/Shagufta/assets/159690874/4b9ca4c5-284a-4f25-a386-d674969dc5fb)# ml project
 Cancer Detection with Pydicom and K-means is a Python project aimed at utilizing medical imaging data in DICOM format to detect potential cancerous regions within medical scans.
 
 Software requirements
@@ -16,3 +16,7 @@ the models after training. Therefore, the 80:20 ratio is a reasonable choice.
 • Test: used to test classifier. This subset is completely kept out of the training process.
 • Validation: used to validate the classifier during the training process. Furthermore, used for 
 stop- or improvement criteria
+
+The dataset used is extracted from the LIDC/IDRI dataset. LIDC/IDRI is the largest publicly available reference database of chest CT scans. It consists of 1,018 thoracic CT scans collected from seven academic institutions with a wide range of scanner models and acquisition parameters [16]. CT images from each scan is associated with an XML file recording nodule reports and diagnosis reports of image annotation process from four experienced thoracic radiologists.
+Each LIDC/IDRI annotation was created by a two-phase reading process. In the first blinded reading phase, suspicious lesions were independently annotated by four experienced thoracic radiologists as nodule >3 mm, nodule >3 mm, or non-nodule (any other pulmonary abnormality). In the second nonblind reading phase, the blinded results of all other radiologists were revealed to each radiologist, who then decided to accept or reject each annotation. No consensus was forced. The LIDC/IDRI annotations for nodules ≥3 mm include position, diameter of nodule in each CT slice, and subjective ratings on a five-point or six-point scale of the pathologic features: calcification, internal structure, subtlety, lobulation, margins, sphericity, malignancy, texture, and spiculation 
+
